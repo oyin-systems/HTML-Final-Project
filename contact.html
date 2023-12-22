@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <style>
+      nav {
+        width: 100%;
+        height: 45px;
+        background-color: navy;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        padding-top: 20px;
+      }
+      nav a {
+        color: white;
+        padding: 10px;
+      }
+      h1 {
+        font-size: 19px;
+        text-align: center;
+        padding-top: 50px;
+      }
+      #form-wrapper {
+        background-color: white;
+        width: 300px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+      }
+      .input-item {
+        /* margin: 10px; */
+        border: none;
+        border-bottom: 1px solid grey;
+        width: 275px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        margin-bottom: 20px
+      }
+      #btn {
+        color: white;
+        background-color: blue;
+        border: none;
+        width: 75px;
+        height: 40px;
+
+      }
+      #btn-wrapper {
+        text-align: center;
+                margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body style="background-color: lightgray">
+    <nav>
+      <a href="/home.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+
+    <h1>Wanna come on my next trip? Contact Me</h1>
+
+    <div id="form-wrapper">
+      <form div="form">
+        <div class="input-wrapper">
+          <input
+            class="input-item"
+            type="text"
+            name="fullname"
+            placeholder="Full Name"
+          />
+        </div>
+        <div class="input-wrapper">
+          <input
+            class="input-item"
+            type="email"
+            name="email"
+            placeholder="Email"
+          />
+        </div>
+        <div class="input-wrapper">
+          <input
+            class="input-item"
+            type="tel"
+            name="contact-number"
+            placeholder="Contact Number"
+          />
+        </div>
+        <div id="btn-wrapper">
+          <input id="btn" type="submit" name="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
